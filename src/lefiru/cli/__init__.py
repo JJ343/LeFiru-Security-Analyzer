@@ -1,0 +1,1 @@
+"""lefiru command-line interface."""

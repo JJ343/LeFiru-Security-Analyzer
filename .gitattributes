@@ -1,0 +1,23 @@
+# Normaliza finales de línea en el repositorio (LF) sin forzar el árbol de trabajo.
+* text=auto
+
+*.py    text
+*.toml  text
+*.yml   text
+*.yaml  text
+*.md    text
+*.txt   text
+
+*.ps1   text eol=crlf
+*.bat   text eol=crlf
+
+# Binarios
+*.png   binary
+*.jpg   binary
+*.ico   binary
+*.xlsx  binary
+*.xlsm  binary
+*.xlsb  binary
+*.docx  binary
+*.pyc   binary
+*.exe   binary
