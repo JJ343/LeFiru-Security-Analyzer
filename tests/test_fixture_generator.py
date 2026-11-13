@@ -62,7 +62,7 @@ def _evaluate_excel(fixture: Path, destination: Path, tests: list[str]) -> dict:
 def _analyze_python(fixture: Path, destination: Path) -> dict:
     """Run the CLI on a Python file and return the report JSON."""
     output = destination / fixture.stem
-    command = [sys.executable, "-m", "lefiru", "-i", str(fixture), "-o", str(output)]
+    command = [sys.executable, "-m", "lefiru", "--path", str(fixture), "-o", str(output)]
     result = subprocess.run(
         command,
         cwd=str(ROOT),

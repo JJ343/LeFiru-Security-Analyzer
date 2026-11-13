@@ -1,3 +1,3 @@
 """LeFiru Security Analyzer — security analysis of Excel and Python files."""
 
-__version__ = "1"
+__version__ = "1.0.0"
