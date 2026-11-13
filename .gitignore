@@ -34,7 +34,5 @@ Thumbs.db
 desktop.ini
 .DS_Store
 
-tools/
 
 AGENTS.md
-generate_fixtures.py
